@@ -1,0 +1,7 @@
+#moshareToolbarButton {
+  list-style-image: url("chrome://moshare/skin/24.png");
+}
+
+toolbar[iconsize="small"] #moshareToolbarButton {
+  list-style-image: url("chrome://moshare/skin/16.png");
+}

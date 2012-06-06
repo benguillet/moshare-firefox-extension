@@ -1,0 +1,5 @@
+content    moshare                                      content/
+overlay    chrome://browser/content/browser.xul         chrome://moshare/content/overlay.xul
+locale     moshare en-US                                locale/en-US/
+skin       moshare classic/1.0                          skin/
+style      chrome://global/content/customizeToolbar.xul chrome://moshare/skin/skin.css

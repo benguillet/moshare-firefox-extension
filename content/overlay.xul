@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://moshare/skin/skin.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://moshare/locale/overlay.dtd">
+<overlay id="moshare-overlay"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <script src="overlay.js"/>
+
+    <toolbarpalette id="BrowserToolbarPalette">
+        <toolbarbutton id="moshareToolbarButton"
+          class="toolbarbutton-1 chromeclass-toolbar-additional" 
+          label="&moshare;"
+          tooltiptext="&moshare_page;"
+          oncommand="moshare.toolbarPage();" />
+    </toolbarpalette>
+
+    <popup id="contentAreaContextMenu">  
+        <menuitem id="moshare_image" label="&moshare_image;" class="menuitem-iconic" image="chrome://moshare/skin/16.png" oncommand="moshare.image();"/>
+        <menuitem id="moshare_text" label="&moshare;" class="menuitem-iconic" image="chrome://moshare/skin/16.png" oncommand="moshare.text();"/>
+        <menuitem id="moshare_page" label="&moshare_page;" class="menuitem-iconic" image="chrome://moshare/skin/16.png" oncommand="moshare.page();"/>
+        <menuitem id="moshare_link" label="&moshare_link;" class="menuitem-iconic" image="chrome://moshare/skin/16.png" oncommand="moshare.link();"/>
+        <menuitem id="moshare_video" label="&moshare_video;" class="menuitem-iconic" image="chrome://moshare/skin/16.png" oncommand="moshare.video();"/>
+        <menuitem id="moshare_audio" label="&moshare_audio;" class="menuitem-iconic" image="chrome://moshare/skin/16.png" oncommand="moshare.audio();"/>
+    </popup>
+</overlay>
