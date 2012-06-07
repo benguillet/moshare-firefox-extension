@@ -5,7 +5,7 @@
     <Description about="urn:mozilla:install-manifest">
         <em:id>support@moshare.com</em:id>
         <em:name>moShare</em:name>
-        <em:version>1.0.3</em:version>
+        <em:version>1.2</em:version>
         <em:type>2</em:type>
         <em:creator>Jonathan Perichon</em:creator>
         <em:developer>Benjamin Guillet</em:developer>

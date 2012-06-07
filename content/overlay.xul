@@ -3,7 +3,8 @@
 <!DOCTYPE overlay SYSTEM "chrome://moshare/locale/overlay.dtd">
 <overlay id="moshare-overlay"
     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-    <script src="overlay.js"/>
+    <script type="application/x-javascript" src="chrome://moshare/content/overlay.js"/>
+    <script type="application/x-javascript" src="chrome://moshare/content/moshare-content-script.js"/>
 
     <toolbarpalette id="BrowserToolbarPalette">
         <toolbarbutton id="moshareToolbarButton"
