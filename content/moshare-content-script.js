@@ -134,7 +134,7 @@
 
                 var loader = Components.classes["@mozilla.org/moz/jssubscript-loader;1"]
                     .getService(Components.interfaces.mozIJSSubScriptLoader);
-                loader.loadSubScript("chrome://moshare/content/jquery-1.7.2.min.js");
+                loader.loadSubScript("chrome://moshare/content/jquery-1.5.2.js");
                 loader.loadSubScript("chrome://moshare/content/underscore.js");
                 var win = window.top.getBrowser().selectedBrowser.contentWindow;
                 init_jQuery(win);
